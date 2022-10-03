@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+#container {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+}
+
+.modal {
+  font-family: "Silkscreen", cursive;
+  width: 450px;
+  height: 500px;
+  background-color: orange;
+  text-align: center;
+  margin: 100px auto;
+  border-radius: 15px;
+  line-height: 25px;
+  font-size: 26px;
+}
+
+.main_modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.618);
+  display: none;
+}
+
+li:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+li {
+  font-family: "Josefin Sans", sans-serif;
+}
